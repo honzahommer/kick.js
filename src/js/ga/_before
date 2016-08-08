@@ -1,0 +1,6 @@
+/**
+ * @param {window} window
+ * @param {document} document
+ * @param {undefined} [undefined]
+ */
+(function(window, document, undefined, start) {

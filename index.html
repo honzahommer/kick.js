@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A JavaScript library that helps you set up Google Analytics. &ndash; ga.js</title>
+    <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="css/gh.min.css">
+    <script src="js/ga.min.js"></script>
+    <script>
+        (new GA.js('UA-NNNNNNNN-N', {
+            name: 'ip',
+            debug: false
+        }).plugin('ec').timing('ga.js', 'load', GA.now(), '{NODE}'));
+    </script>
+</head>
+<body>
+
+<div class="navbar-wrapper header">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href=".">ga.js</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">Link</a>
+                        </li>
+                        <li>
+                            <a href="#">Link</a>
+                        </li>
+                        <li>
+                            <a href="#">Link</a>
+                        </li>
+                        <li>
+                            <a href="#">Link</a>
+                        </li>
+                        <li>
+                            <a href="#">Link</a>
+                        </li>
+                    </ul>
+                    <form action="e-shop-detail.html" class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="search" name="q" class="form-control"
+                                placeholder="What are you looking for?">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Example headline.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button"
+                         data-ga-on="click" data-ga-event-category="carousel">Sign up today</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>One more for good measure.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button"
+                        data-ga-on="click" data-ga-event-category="carousel">Browse gallery</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    It works...
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script async src="js/ga.plugin.min.js"></script>
+<script src="js/gh.min.js"></script>
+</body>
+</html>

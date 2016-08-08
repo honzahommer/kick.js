@@ -1,0 +1,25 @@
+{
+  "name": "kick.js",
+  "description": "Free yourself from the chains of jQuery.",
+  "keywords": [
+    "js",
+    "vanilla",
+    "document",
+    "ready",
+    "jquery"
+  ],
+  "main": [
+    "dist/js/kick.js"
+  ],
+  "authors": "Honza Hommer <honza@hommer.cz>",
+  "license": "MIT",
+  "moduleType": "globals",
+  "homepage": "https://github.com/honzahommer/kick.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
